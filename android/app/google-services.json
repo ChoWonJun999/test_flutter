@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "183605659543",
+    "project_id": "odwalkingapp",
+    "storage_bucket": "odwalkingapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183605659543:android:20d3a315e7de7dbb9ba6d2",
+        "android_client_info": {
+          "package_name": "com.odpia.pedometer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAQ7xGOoWWamrhcgK7_D-wRwS80jwzCC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

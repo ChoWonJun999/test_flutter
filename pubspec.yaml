@@ -1,0 +1,127 @@
+name: app
+description: 'A new Flutter project.'
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  # Flutter SDK
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^3.3.0
+  riverpod_annotation: ^4.0.0
+
+  # Permissions & sensors
+  pedometer: ^4.1.1
+  permission_handler: ^12.0.1
+
+  # Localization & networking
+  intl: ^0.20.2
+  http: ^1.6.0
+  path: ^1.9.0
+
+  # Storage
+  flutter_secure_storage: ^10.0.0
+  shared_preferences: ^2.5.0
+  sqflite: ^2.4.0
+
+  # Media
+  image_picker: ^1.0.0
+
+  # Map & location
+  geolocator: ^12.0.0
+  flutter_naver_map: ^1.4.4
+  kpostal: ^1.1.0
+
+  # Charts
+  fl_chart: ^1.1.1
+
+  # Background task
+  flutter_foreground_task: ^9.2.1
+
+  # Auth
+  jwt_decoder: ^2.0.1
+  url_launcher: ^6.3.2
+
+  flutter_image_compress: ^2.3.0
+
+  firebase_core: ^4.1.0
+  firebase_messaging: ^16.0.1
+  device_info_plus: ^11.1.0
+  dio: ^5.7.0
+  uuid: ^4.5.1
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  # Flutter test SDK
+  flutter_test:
+    sdk: flutter
+
+  # # flutter image compress
+  # flutter_image_compress: ^2.3.0
+
+  # Splash & launcher icons
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.14.0
+
+  # Lints
+  flutter_lints: ^6.0.0
+
+  # Code generation
+  build_runner: ^2.13.1
+
+  # Web build tooling
+  build_web_compilers: ^4.0.4
+  freezed: ^3.2.3
+  json_serializable: ^6.11.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Pretendard-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Pretendard-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Pretendard-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Pretendard-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Pretendard-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Pretendard-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Pretendard-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Pretendard-Black.ttf
+          weight: 900
+
+flutter_native_splash:
+  image: assets/images/transparent.png
+  color: '#EAEAD0'
+  android: true
+  ios: true
+  android_12:
+    color: '#EAEAD0'
+    icon_background_color: '#EAEAD0'
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/appicon.png
+  adaptive_icon_background: '#FFFFFF'
+  adaptive_icon_foreground: assets/images/appicon.png
